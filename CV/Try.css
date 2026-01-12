@@ -1,0 +1,43 @@
+*{ box-sizing: border-box;}
+
+body{  background:whitesmoke
+    ;padding: 20px;}
+
+.resume{
+max-width: 1000px;
+margin: auto;
+display: flex;
+background: white;
+
+}
+
+.left{width: 35%;
+background: #131212;
+color: white;
+padding: 30px;
+
+}
+
+.profile-pic img{width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+
+
+}
+
+.profile-pic{ text-align: center;
+margin: 10px  };
+
+
+
+
+
+
+
+
+
+
+
+
+

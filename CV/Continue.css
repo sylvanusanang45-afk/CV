@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.CV {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    background: white;
+}
+
+
+.left {
+    width: 35%;
+    background: #3a3a3a;
+    color: white;
+    padding: 30px;
+}
+
+.left h1 {
+    font-size: 26px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.pic {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.education {
+    margin-top: 30px;
+}
+
+.education h2 {
+    margin-bottom: 15px;
+}
+
+.edu {
+    margin-bottom: 15px;
+}
+
+.edu span {
+    font-size: 12px;
+    color: #ccc;
+}
+
+
+.right {
+    width: 65%;
+    padding: 30px;
+}
+
+.right h2 {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.work span {
+    font-size: 13px;
+    color: gray;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.bar {
+    width: 12%;
+    height: 7px;
+    background: #ddd;
+    margin-top: 5px;
+}
+.yo{height: 100% ; 
+
+background-color: black;
+
+}
+    
+
+.first { width: 90%; }
+.second { width: 85%; }
+.Third { width: 80%; }
+
+.expertise {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style: none;
+}

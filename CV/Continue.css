@@ -6,65 +6,99 @@
 }
 
 body {
-    background: #f4f4f4;
-    padding: 20px;
+    background: #f2f2f2;
 }
 
-.CV {
-    max-width: 1000px;
-    margin: auto;
+
+.resume {
+    width: 900px;
+    margin: 30px auto;
     display: flex;
     background: white;
+    min-height: 200px;
 }
 
 
 .left {
     width: 35%;
-    background: #3a3a3a;
-    color: white;
-    padding: 30px;
+    background: #e5e5e5;
+    position: relative;
 }
 
-.left h1 {
-    font-size: 26px;
+
+.high {
+    background: #2f2f33;
+    color: white;
+    padding: 30px 20px 90px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    text-align: center;
+}
+
+.high h2 {
+    letter-spacing: 2px;
+    font-size: 22px;
 }
 
 .title {
-    margin-bottom: 20px;
-    font-size: 14px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    margin-top: 5px;
+    letter-spacing: 1px;
 }
 
-.pic {
-    text-align: center;
-    margin: 20px 0;
+
+.photo {
+    width: 170px;
+    height: 170px;
+    background: white;
+    border-radius: 50%;
+    margin: 30px auto 0;
+    padding: 7px;
 }
 
-.pic img {
-    width: 150px;
-    height: 150px;
+.photo img {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.contact p {
-    margin: 10px 0;
+
+.contact {
+    padding: 30px 25px;
     font-size: 14px;
 }
 
-.education {
-    margin-top: 30px;
+.contact p {
+    margin: 12px 0;
 }
 
-.education h2 {
-    margin-bottom: 15px;
+
+.down {
+    background: #2f2f33;
+    color: white;
+    padding: 50px 25px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    margin-top: 40px;
 }
 
-.edu {
-    margin-bottom: 15px;
+.down h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
-.edu span {
+.educ {
+    margin-bottom: 25px;
+}
+
+.educ p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.educ span {
     font-size: 12px;
     color: #ccc;
 }
@@ -72,47 +106,68 @@ body {
 
 .right {
     width: 65%;
-    padding: 30px;
+    padding: 40px 35px;
+}
+
+.right section {
+    margin-bottom: 35px;
 }
 
 .right h2 {
     margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 5px;
     letter-spacing: 1px;
 }
 
-section {
-    margin-bottom: 30px;
+
+.work {
+    margin-bottom: 25px;
 }
 
 .work span {
-    font-size: 13px;
+    font-size: 12px;
     color: gray;
 }
 
-.skill {
-    margin: 10px 0;
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
 }
 
-.bar {
-    width: 12%;
-    height: 7px;
+.skill-name {
+    width: 150px;
+    font-size: 14px;
+}
+
+.skill-bar {
+    flex: 1;
+    height: 8px;
     background: #ddd;
-    margin-top: 5px;
+    border-radius: 10px;
+    margin: 0 10px;
 }
-.yo{height: 100% ; 
 
-background-color: black;
-
+.skill-fill {
+    height: 100%;
+    background: #333;
+    border-radius: 10px;
 }
-    
 
-.first { width: 90%; }
-.second { width: 85%; }
-.Third { width: 80%; }
+.skill-percent {
+    width: 40px;
+    font-size: 14px;
+    text-align: right;
+}
+
 
 .expertise {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
     list-style: none;
+    margin-top: 10px;
 }
